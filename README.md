@@ -1,9 +1,33 @@
-# Sanity Clean Content Studio
+# Hello World
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+Minimalist template of a Next.js website managed from Sanity.
 
-Now you can do the following things:
+![Studio Overview](./public/studio.png) 
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## Running the project locally
+
+```
+npm run dev
+```
+
+## Set up
+
+### 1. Set up the environment
+Copy `.env.example` and fill it up with your Sanity project variables:
+
+```
+cp .env.example .env
+```
+
+Alternatively, if you're deploying on Vercel, run the following:
+
+```
+vercel link
+vercel env pull .env
+```
+
+### 2. Install dependencies
+
+```
+npm i
+```
